@@ -1,4 +1,9 @@
 {
+  "name": "my-dataset",
+  "resources": [
+  {
+    "path": "data.csv",
+    "schema": {
 	"fields": [{
 			"name": "date",
 			"title": "date",
@@ -48,5 +53,6 @@
 				"type": "http://www.w3.org/2001/XMLSchema#int"
 			}
 		}
-	]
+	]}
+  }]
 }
