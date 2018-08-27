@@ -2,7 +2,7 @@
   "name": "my-dataset1",
   "resources": [
   {
-    "path": "report/data.csv",
+    "path": "data.csv",
     "schema": {
 	"fields": [{
 			"name": "date",
