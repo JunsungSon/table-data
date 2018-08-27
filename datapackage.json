@@ -2,7 +2,7 @@
   "name": "my-dataset",
   "resources": [
   {
-    "path": "toed-vehicle.csv",
+    "path": "data.csv",
     "schema": {
 	    "fields": [{
 			"name": "견인차량보관소명",
