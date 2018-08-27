@@ -3,6 +3,6 @@
   "resources": [
   {
     "name": "my-data",
-    "path": "data.csv"
+    "path": "report2/data.csv"
   }]
 }
