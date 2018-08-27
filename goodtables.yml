@@ -1,3 +1,6 @@
+files:
+  - source: report2/data.csv
+    schema: report2/subway.json
 datapackages:
   - report/datapackage.json
   - report2/datapackage.json
