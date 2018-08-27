@@ -1,0 +1,59 @@
+{
+  "name": "my-dataset1",
+  "resources": [
+  {
+    "path": "report/data.csv",
+    "schema": {
+	"fields": [{
+			"name": "date",
+			"title": "date",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date"
+			}
+		},
+		{
+			"name": "line",
+			"title": "line",
+			"constraints": {
+				"required": true,
+				"pattern": "(1|2|3|4|호선)",
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "station",
+			"title": "station",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "category",
+			"title": "category",
+			"constraints": {
+				"required": true,
+				"pattern": "(승차|하차)"
+			}
+		},
+		{
+			"name": "00~01",
+			"title": "00~01",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "01~02",
+			"title": "01~02",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		}
+	]
+}
+  }]
+}
