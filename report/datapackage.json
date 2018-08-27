@@ -1,8 +1,8 @@
 {
-  "name": "my-dataset1",
+  "name": "my-dataset",
   "resources": [
   {
-    "path": "report/data.csv",
+    "path": "data.csv",
     "schema": {
 	    "fields": [{
 			"name": "견인차량보관소명",
